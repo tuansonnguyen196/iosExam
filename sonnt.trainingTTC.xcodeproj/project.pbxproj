@@ -3,27 +3,58 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		698F0915252AC57A00DE2C2A /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F0914252AC57A00DE2C2A /* RequestModel.swift */; };
 		69996D142526B82000BE8065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69996D132526B82000BE8065 /* AppDelegate.swift */; };
 		69996D162526B82000BE8065 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69996D152526B82000BE8065 /* SceneDelegate.swift */; };
-		69996D182526B82000BE8065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69996D172526B82000BE8065 /* ViewController.swift */; };
-		69996D1B2526B82000BE8065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69996D192526B82000BE8065 /* Main.storyboard */; };
 		69996D1D2526B82200BE8065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69996D1C2526B82200BE8065 /* Assets.xcassets */; };
 		69996D202526B82200BE8065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69996D1E2526B82200BE8065 /* LaunchScreen.storyboard */; };
+		69996D282526BA3300BE8065 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69996D272526BA3300BE8065 /* FirstView.xib */; };
+		69996D2C2526BAA500BE8065 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69996D2A2526BAA500BE8065 /* TableViewCell.swift */; };
+		69996D2D2526BAA500BE8065 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69996D2B2526BAA500BE8065 /* TableViewCell.xib */; };
+		69996D362526CA1F00BE8065 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69996D342526CA1F00BE8065 /* InfoViewController.swift */; };
+		69996D372526CA1F00BE8065 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69996D352526CA1F00BE8065 /* InfoViewController.xib */; };
+		69996D3D2526CB1C00BE8065 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69996D3C2526CB1C00BE8065 /* Model.swift */; };
+		69996D3F2526E19E00BE8065 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69996D3E2526E19E00BE8065 /* FirstViewController.swift */; };
+		69D2B9EF2528167C00DE6E07 /* Pods_sonnt_trainingTTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C3A77DF002B2102A621EB /* Pods_sonnt_trainingTTC.framework */; };
+		69D2B9F02528167C00DE6E07 /* Pods_sonnt_trainingTTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C3A77DF002B2102A621EB /* Pods_sonnt_trainingTTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		69D2B9F12528167C00DE6E07 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				69D2B9F02528167C00DE6E07 /* Pods_sonnt_trainingTTC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1E5C3A77DF002B2102A621EB /* Pods_sonnt_trainingTTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sonnt_trainingTTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		377555422BFA4CB2EA18E6C7 /* Pods-sonnt.trainingTTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sonnt.trainingTTC.release.xcconfig"; path = "Target Support Files/Pods-sonnt.trainingTTC/Pods-sonnt.trainingTTC.release.xcconfig"; sourceTree = "<group>"; };
+		698F0914252AC57A00DE2C2A /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
 		69996D102526B82000BE8065 /* sonnt.trainingTTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sonnt.trainingTTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69996D132526B82000BE8065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69996D152526B82000BE8065 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		69996D172526B82000BE8065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		69996D1A2526B82000BE8065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69996D1C2526B82200BE8065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69996D1F2526B82200BE8065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69996D212526B82200BE8065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69996D272526BA3300BE8065 /* FirstView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		69996D2A2526BAA500BE8065 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		69996D2B2526BAA500BE8065 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		69996D342526CA1F00BE8065 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		69996D352526CA1F00BE8065 /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		69996D3C2526CB1C00BE8065 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		69996D3E2526E19E00BE8065 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		845FC2C65C9073A2A4B8FDCA /* Pods-sonnt.trainingTTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sonnt.trainingTTC.debug.xcconfig"; path = "Target Support Files/Pods-sonnt.trainingTTC/Pods-sonnt.trainingTTC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +62,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D2B9EF2528167C00DE6E07 /* Pods_sonnt_trainingTTC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02B819A2CBD2BB90181A3BC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				845FC2C65C9073A2A4B8FDCA /* Pods-sonnt.trainingTTC.debug.xcconfig */,
+				377555422BFA4CB2EA18E6C7 /* Pods-sonnt.trainingTTC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3AC040A7C11C234698A07E61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C3A77DF002B2102A621EB /* Pods_sonnt_trainingTTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6911050D25280A1500CFCAA8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				69996D3E2526E19E00BE8065 /* FirstViewController.swift */,
+				69996D342526CA1F00BE8065 /* InfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6911050E25280A2600CFCAA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69996D272526BA3300BE8065 /* FirstView.xib */,
+				69996D352526CA1F00BE8065 /* InfoViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		69996D072526B82000BE8065 = {
 			isa = PBXGroup;
 			children = (
 				69996D122526B82000BE8065 /* sonnt.trainingTTC */,
 				69996D112526B82000BE8065 /* Products */,
+				02B819A2CBD2BB90181A3BC1 /* Pods */,
+				3AC040A7C11C234698A07E61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +125,35 @@
 		69996D122526B82000BE8065 /* sonnt.trainingTTC */ = {
 			isa = PBXGroup;
 			children = (
+				6911050E25280A2600CFCAA8 /* View */,
+				6911050D25280A1500CFCAA8 /* Controller */,
+				69996D392526CB0400BE8065 /* Model */,
+				69996D292526BA8C00BE8065 /* TableViewCell */,
 				69996D132526B82000BE8065 /* AppDelegate.swift */,
 				69996D152526B82000BE8065 /* SceneDelegate.swift */,
-				69996D172526B82000BE8065 /* ViewController.swift */,
-				69996D192526B82000BE8065 /* Main.storyboard */,
 				69996D1C2526B82200BE8065 /* Assets.xcassets */,
 				69996D1E2526B82200BE8065 /* LaunchScreen.storyboard */,
 				69996D212526B82200BE8065 /* Info.plist */,
 			);
 			path = sonnt.trainingTTC;
+			sourceTree = "<group>";
+		};
+		69996D292526BA8C00BE8065 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				69996D2A2526BAA500BE8065 /* TableViewCell.swift */,
+				69996D2B2526BAA500BE8065 /* TableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		69996D392526CB0400BE8065 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69996D3C2526CB1C00BE8065 /* Model.swift */,
+				698F0914252AC57A00DE2C2A /* RequestModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69996D242526B82200BE8065 /* Build configuration list for PBXNativeTarget "sonnt.trainingTTC" */;
 			buildPhases = (
+				4997D9CA91804CFE724DA461 /* [CP] Check Pods Manifest.lock */,
 				69996D0C2526B82000BE8065 /* Sources */,
 				69996D0D2526B82000BE8065 /* Frameworks */,
 				69996D0E2526B82000BE8065 /* Resources */,
+				2C6085747A127C691743D3EE /* [CP] Embed Pods Frameworks */,
+				69D2B9F12528167C00DE6E07 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +218,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				69996D202526B82200BE8065 /* LaunchScreen.storyboard in Resources */,
+				69996D2D2526BAA500BE8065 /* TableViewCell.xib in Resources */,
+				69996D282526BA3300BE8065 /* FirstView.xib in Resources */,
+				69996D372526CA1F00BE8065 /* InfoViewController.xib in Resources */,
 				69996D1D2526B82200BE8065 /* Assets.xcassets in Resources */,
-				69996D1B2526B82000BE8065 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C6085747A127C691743D3EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sonnt.trainingTTC/Pods-sonnt.trainingTTC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sonnt.trainingTTC/Pods-sonnt.trainingTTC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sonnt.trainingTTC/Pods-sonnt.trainingTTC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4997D9CA91804CFE724DA461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sonnt.trainingTTC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		69996D0C2526B82000BE8065 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69996D182526B82000BE8065 /* ViewController.swift in Sources */,
+				69996D2C2526BAA500BE8065 /* TableViewCell.swift in Sources */,
 				69996D142526B82000BE8065 /* AppDelegate.swift in Sources */,
+				69996D3D2526CB1C00BE8065 /* Model.swift in Sources */,
 				69996D162526B82000BE8065 /* SceneDelegate.swift in Sources */,
+				698F0915252AC57A00DE2C2A /* RequestModel.swift in Sources */,
+				69996D362526CA1F00BE8065 /* InfoViewController.swift in Sources */,
+				69996D3F2526E19E00BE8065 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		69996D192526B82000BE8065 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69996D1A2526B82000BE8065 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		69996D1E2526B82200BE8065 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +414,7 @@
 		};
 		69996D252526B82200BE8065 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845FC2C65C9073A2A4B8FDCA /* Pods-sonnt.trainingTTC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +433,7 @@
 		};
 		69996D262526B82200BE8065 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 377555422BFA4CB2EA18E6C7 /* Pods-sonnt.trainingTTC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
