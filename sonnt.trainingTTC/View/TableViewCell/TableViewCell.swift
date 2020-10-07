@@ -17,7 +17,6 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var detailPositionLabel: UILabel!
     
     //MARK: Let, var
-    var navigationController = UINavigationController()
     var clickEditButton:(()->  Void)?
     var clickDeleteButton:(()->  Void)?
     

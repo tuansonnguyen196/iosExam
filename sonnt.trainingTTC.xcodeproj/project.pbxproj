@@ -98,6 +98,7 @@
 		6911050E25280A2600CFCAA8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				69996D292526BA8C00BE8065 /* TableViewCell */,
 				69996D272526BA3300BE8065 /* FirstView.xib */,
 				69996D352526CA1F00BE8065 /* InfoViewController.xib */,
 			);
@@ -128,7 +129,6 @@
 				6911050E25280A2600CFCAA8 /* View */,
 				6911050D25280A1500CFCAA8 /* Controller */,
 				69996D392526CB0400BE8065 /* Model */,
-				69996D292526BA8C00BE8065 /* TableViewCell */,
 				69996D132526B82000BE8065 /* AppDelegate.swift */,
 				69996D152526B82000BE8065 /* SceneDelegate.swift */,
 				69996D1C2526B82200BE8065 /* Assets.xcassets */,

@@ -18,8 +18,6 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //        let nib = UINib(nibName: "TableViewCell", bundle: nil)
-        //        self.listEmployeeTableView.register(nib, forCellReuseIdentifier: "TableViewCell")
         listEmployeeTableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "TableViewCell")
         listEmployeeTableView.delegate = self
         listEmployeeTableView.dataSource = self
@@ -57,7 +55,6 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
                 self.listEmployee.remove(at: indexPath.row)
                 self.listEmployeeTableView.reloadData()
             }))
-            
             deleteNotice.addAction(UIAlertAction(title: "Không", style: .cancel, handler: nil))
             self.present(deleteNotice, animated: true,completion: nil)
         }

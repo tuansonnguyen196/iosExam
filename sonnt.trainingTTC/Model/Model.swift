@@ -18,8 +18,6 @@ class EmployeeBO: Mappable {
      func mapping(map: Map) {
         employees <- map["employees"]
     }
-    
-
 }
 
 class PersonBO: Mappable{
